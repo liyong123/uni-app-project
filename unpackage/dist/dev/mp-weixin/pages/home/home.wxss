@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.status_bar.data-v-1b9f26b7 {
+  height: 25px;
+  width: 100%;
+}
+.main.data-v-1b9f26b7 {
+  position: fixed;
+  top: 200rpx;
+  width: 100%;
+  bottom: 0;
+  overflow: auto;
+}
+.zdy-nav-bar-all.data-v-1b9f26b7 {
+  position: fixed;
+  top: 25px;
+  background: #fff;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+}
+.zdy-nav-bar.data-v-1b9f26b7 {
+  height: 86rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20rpx;
+}
+.zdy-nav-bar view.data-v-1b9f26b7 {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+}
+.zdy-nav-bar view.data-v-1b9f26b7:nth-child(2) {
+  width: 160rpx;
+  height: 44rpx;
+}
+.zdy-nav-bar > view > image.data-v-1b9f26b7 {
+  width: 160rpx;
+  height: 44rpx;
+}
+.advertising-post.data-v-1b9f26b7 {
+  width: 100%;
+  height: 220rpx;
+  margin-top: 150rpx;
+  -webkit-border-radius: 0rpx;
+          border-radius: 0rpx;
+  background-color: #fff;
+}
+.advertising-post image.data-v-1b9f26b7 {
+  height: 220rpx;
+  width: 100%;
+  -webkit-border-radius: 0rpx;
+          border-radius: 0rpx;
+}
+.rental-car-mode.data-v-1b9f26b7 {
+  height: 64rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10rpx;
+}
+.modeItem.data-v-1b9f26b7 {
+  width: 170rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  font-size: 30rpx;
+  color: #6b6b6b;
+  letter-spacing: 1rpx;
+  font-weight: 500;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.modeItem.active.data-v-1b9f26b7 {
+  color: #efb255;
+}
+.rental-car-mode2.data-v-1b9f26b7 {
+  background: #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 20rpx auto;
+  margin-bottom: 20rpx;
+}
+.title.data-v-1b9f26b7 {
+  padding: 30rpx;
+  color: #212338;
+  letter-spacing: 2rpx;
+  font-size: 34rpx;
+}
+.carTypeAll.data-v-1b9f26b7 {
+  padding: 0 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.carItem.data-v-1b9f26b7 {
+  width: 310rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  background: #f5f6f8;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-shadow: 0 0rpx 20rpx #f5f6f8;
+          box-shadow: 0 0rpx 20rpx #f5f6f8;
+}
+.carItem image.data-v-1b9f26b7 {
+  width: 100%;
+  height: 150rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+}
+.carMesAll.data-v-1b9f26b7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+}
+.carMesAll .carNameNum.data-v-1b9f26b7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30rpx 0 16rpx;
+}
+.carMesAll .carNameNum .carName.data-v-1b9f26b7 {
+  color: #5a5a5a;
+  font-size: 28rpx;
+  letter-spacing: 0;
+}
+.kucun.data-v-1b9f26b7 {
+  color: #999;
+  font-size: 24rpx;
+}
+.kucun text.data-v-1b9f26b7:last-child {
+  color: #efb255;
+}
+.moneyAll.data-v-1b9f26b7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.yajing.data-v-1b9f26b7 {
+  height: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.yajing.data-v-1b9f26b7:last-child {
+  margin-bottom: 0;
+}
+.yajing text.data-v-1b9f26b7 {
+  font-size: 24rpx;
+  color: #a1a1a1;
+}
+.yajing text.data-v-1b9f26b7:nth-child(2) {
+  color: #efb255;
+}
+.yajing text.data-v-1b9f26b7:nth-child(3) {
+  color: #efb255;
+  font-size: 26rpx;
+}
+.yajing2 text.data-v-1b9f26b7 {
+  color: #efb255;
+}
+.yajing2 text.data-v-1b9f26b7:nth-child(2) {
+  font-size: 26rpx;
+}
+.yajing2 text.data-v-1b9f26b7:nth-child(3) {
+  color: #a1a1a1;
+}
+

@@ -1,0 +1,1 @@
+<view><view class="btns"><navigator class="nav" url="/pages/business/businessType"><text>商务合作</text></navigator><view class="nav nav2"></view><navigator class="nav" url><text>金牌推广</text></navigator></view><view class="article">文字</view></view>

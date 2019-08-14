@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/business/business",
+    "pages/service/service",
+    "pages/mine/mine",
+    "pages/choosedCarType/choosedCarType",
+    "pages/choosedCarType/carDetail",
+    "pages/choosedCarType/rentContract",
+    "pages/business/businessType",
+    "pages/business/uploadPic",
+    "pages/mine/smrz",
+    "pages/mine/yhk",
+    "pages/mine/wdzc",
+    "pages/mine/yue",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": " ",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#666",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/home11.png",
+        "selectedIconPath": "static/home21.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/business/business",
+        "iconPath": "static/banb2.png",
+        "selectedIconPath": "static/banb1.png",
+        "text": "商务社区"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "static/gonzuo1.png",
+        "selectedIconPath": "static/gonzuo2.png",
+        "text": "客服"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/wd2.png",
+        "selectedIconPath": "static/wd1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

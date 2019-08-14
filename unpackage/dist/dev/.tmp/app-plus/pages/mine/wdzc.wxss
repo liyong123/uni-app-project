@@ -1,0 +1,115 @@
+
+.bg{
+	  height: 150rpx;
+	  background: #fae64f;
+}
+.bg2{
+	  height: 100rpx; 
+	  background: #fae64f;
+	  background: -webkit-linear-gradient(#fae64f, #F5F5F5); /* Safari 5.1 - 6.0 */
+	  background: -o-linear-gradient(#fae64f, #F5F5F5); /* Opera 11.1 - 12.0 */ /* Firefox 3.6 - 15 */
+	  background: -webkit-gradient(linear, left top, left bottom, from(#fae64f), to(#F5F5F5));
+	  background: linear-gradient(#fae64f, #F5F5F5); /* 标准的语法 */
+}
+.name{
+	  font-size: 36rpx;
+	  color: #fff;
+	  padding: 20rpx 40rpx;
+}
+.moneyAll{
+	  position: relative;
+	  margin: 0 auto;
+	  margin-top: -120rpx;
+	  z-index: 9;
+	  height: 500rpx;
+	  width: 92%; 
+	  -webkit-border-radius: 10rpx; 
+	          border-radius: 10rpx;
+	  background: #fff;
+	  color: #999;
+	  padding: 50rpx 0;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	      -ms-flex-pack: center;
+	          justify-content: center;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	      -ms-flex-direction: column;
+	          flex-direction: column;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center;
+}
+.moneyAll >view.another{
+	  position: absolute;
+	  top: 30rpx;
+	  left: 0rpx;
+	  right: 0;
+	  width: auto;
+	  color: #999;
+	  font-size: 28rpx;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	      -ms-flex-direction: column;
+	          flex-direction: column;
+	  -webkit-box-align: start;
+	  -webkit-align-items: flex-start;
+	      -ms-flex-align: start;
+	          align-items: flex-start;
+	  height: 120rpx;
+	  border-bottom: solid 1rpx #F5F5F5;
+}
+.moneyAll .item{
+	  height: 100rpx;
+	  width: 350rpx;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  padding: 0 50rpx;
+	  -webkit-box-pack: start;
+	  -webkit-justify-content: flex-start;
+	      -ms-flex-pack: start;
+	          justify-content: flex-start;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	      -ms-flex-align: center;
+	          align-items: center; 
+	  font-size: 30rpx;
+}
+.moneyAll .item > text:first-child{
+		font-size: 46rpx;
+		margin-right: 20rpx;
+}
+.moneyAll .item > text:nth-child(2){
+  	  font-size: 34rpx;
+	  margin-right: 20rpx;
+}
+.moneyAll .item >text:nth-child(3){
+  	  font-size: 28rpx;
+  	  margin-right: 5rpx;
+	  color: #efb255;
+}
+.moneyAll .item >text:last-child{
+  	  color: #efb255;
+}
+.moneyAll >view.another > text:first-child{
+  	 font-size: 28rpx;
+	 margin-bottom: 16rpx;
+}
+.moneyAll >view.another > text:last-child{
+  	 font-size: 42rpx;
+	 color: #121212;
+}
+

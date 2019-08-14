@@ -1,0 +1,110 @@
+
+.contract-img{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	padding: 0 30rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.contract-img image{
+}
+.sign{
+	position: absolute;
+	left: 50rpx;
+	bottom: 10rpx;
+	z-index: 999;
+	font-size: 32rpx;
+	color: #121212;
+}
+.btns{
+	  margin-top: 30rpx;
+	  margin-bottom: 30rpx;
+	  padding: 0 30rpx;
+}
+.btns > button{
+	height:90rpx;  
+	background-color: #efb14e;
+	border: none;
+	color: fff !important; 
+	font-size: 32rpx; 
+	display: -webkit-box; 
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center; 
+	-webkit-box-pack: center; 
+	-webkit-justify-content: center; 
+	    -ms-flex-pack: center; 
+	        justify-content: center;  
+	-webkit-box-shadow: none;  
+	        box-shadow: none;
+}
+/* 提示窗口 */
+.mask-fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	overflow: hidden;
+	background:rgba(0, 0, 0, .4)
+}
+.tip-out{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.uni-tip {
+	padding: 30rpx;
+	width: 600rpx;
+	background: #fff;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.uni-tip-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 32rpx;
+	color: #333;
+}
+.uni-tip-content {
+	padding: 30rpx;
+	font-size: 28rpx;
+	color: #666;
+}
+.uni-tip-group-button {
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.uni-tip-button {
+	width: 100%;
+	text-align: center;
+	font-size: 28rpx;
+	color: #3b4144;
+}
+

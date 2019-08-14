@@ -1,0 +1,180 @@
+
+page{
+		background: #f5f5f5 !important;
+}
+.title{
+		height: 52rpx;
+		padding: 10rpx  0;
+		color: #000;
+		letter-spacing: 2rpx;
+		font-size: 36rpx;
+		background: #fff;
+		text-align: center;
+		font-weight: normal;
+		border-bottom: solid 2rpx #e2e2e2;
+}
+.carTab{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 74rpx; 
+		background: #fff;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding: 0 30rpx 0;
+		border-top: solid 1rpx #e2e2e2;
+}
+.carTab text{
+		-webkit-box-flex: 0;
+		-webkit-flex: none;
+		    -ms-flex: none;
+		        flex: none;
+		width: 104rpx;
+		font-size:30rpx;  
+		color: #757575; 
+		margin-right: 40rpx;
+}
+.carTab text.active{
+		color:#efb255 ;
+}
+.carTab text:first-child{ 
+		width: 76rpx;
+}
+.carTab text:nth-child(3){
+		width: 140rpx;
+}
+.carTypeAll{
+  	padding: 0 ;
+  	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+  	-webkit-flex-direction: column;
+  	    -ms-flex-direction: column;
+  	        flex-direction: column;
+  	-webkit-box-pack: center;
+  	-webkit-justify-content: center;
+  	    -ms-flex-pack: center;
+  	        justify-content: center;
+	margin-bottom: 30rpx;
+	margin-top: 98rpx;
+}
+.carItem{
+  	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-orient: horizontal;
+  	-webkit-box-direction: normal;
+  	-webkit-flex-direction: row;
+  	    -ms-flex-direction: row;
+  	        flex-direction: row;
+  	padding: 24rpx 30rpx 16rpx; 
+  	margin-bottom: 20rpx;
+  	background: #fff;
+  	-webkit-border-radius:10rpx ;
+  	        border-radius:10rpx ;
+  	-webkit-box-pack:start;
+  	-webkit-justify-content:flex-start;
+  	    -ms-flex-pack:start;
+  	        justify-content:flex-start;
+	border-top: solid 1rpx #eee;
+	border-bottom: solid 1rpx #eee;
+}
+.carItem:last-child{
+  	border-bottom:none;
+}
+.carItem image{
+  	width: 200rpx;
+  	height: 100rpx;  
+	margin-top: 40rpx; 
+  	-webkit-box-flex: 0; 
+  	-webkit-flex: none; 
+  	    -ms-flex: none; 
+  	        flex: none;
+  	margin-right: 45rpx;
+  	-webkit-border-radius: 16rpx;
+  	        border-radius: 16rpx;
+}
+.carMesAll{
+  	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+  	-webkit-flex-direction: column;
+  	    -ms-flex-direction: column;
+  	        flex-direction: column;
+  	-webkit-box-flex: 0;
+  	-webkit-flex: none;
+  	    -ms-flex: none;
+  	        flex: none;
+  	width: 430rpx; 
+  	padding: 10rpx 0 0;
+}
+.carMesAll .carNameNum{
+  	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-orient: horizontal;
+  	-webkit-box-direction: normal;
+  	-webkit-flex-direction: row;
+  	    -ms-flex-direction: row;
+  	        flex-direction: row;
+  	-webkit-box-pack: justify;
+  	-webkit-justify-content: space-between;
+  	    -ms-flex-pack: justify;
+  	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-bottom: 20rpx;
+	margin-bottom: 16rpx;
+	border-bottom: solid 1rpx #eee;
+}
+.carMesAll .carNameNum .carName{
+  	color: #3a3a3a;
+  	font-size: 34rpx;
+}
+.carMesAll .carNameNum .kucun{
+  	color: #a1a1a1;
+  	font-size: 26rpx;
+}
+.carMesAll .carNameNum .kucun text:last-child{
+  	color: #efb255;
+}
+.yajing text{
+  	font-size: 26rpx;
+  	color: #a1a1a1;
+}
+.yajing text:nth-child(2){
+  	color: #efb255;
+  	margin-right: 10rpx;
+}
+.yajing text:nth-child(3){
+  	color: #efb255;
+  	margin-right: 20rpx; 
+	font-size: 28rpx;
+}
+.yajing2{
+	  margin-bottom: 6rpx;
+}
+	/* .yajing text:last-child{
+  	font-size: 24rpx;
+  } */
+
